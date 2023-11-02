@@ -31,6 +31,6 @@ contract StudentData {
     }
 
     fallback() external {
-        revert("Fallback function called. Dhairyashil  Use the defined functions.");
+        revert("Fallback function called. Use the defined functions.");
     }
 }
